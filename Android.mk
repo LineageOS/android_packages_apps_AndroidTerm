@@ -28,11 +28,11 @@ LOCAL_MODULE_TAGS := eng
 
 LOCAL_SRC_FILES := $(call all-subdir-java-files)
 
-LOCAL_PACKAGE_NAME := AndroidTerm
+LOCAL_PACKAGE_NAME := androidterm2
 
 LOCAL_OVERRIDES_PACKAGES := Term
 
-LOCAL_JNI_SHARED_LIBRARIES := libandroidterm
+LOCAL_JNI_SHARED_LIBRARIES := libandroidterm2
 
 include $(BUILD_PACKAGE)
 
