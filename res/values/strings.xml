@@ -15,70 +15,58 @@
  * limitations under the License.
 -->
 <resources>
-   <string name="application_terminal">Terminal Emulator</string>
-   <string name="preferences">Preferences</string>
-   <string name="reset">Reset term</string>
-   <string name="send_email">Email to</string>
-   <string name="special_keys">Special keys</string>
-   <string name="toggle_soft_keyboard">Toggle soft keyboard</string>
-
-   <string name="edit_text">Edit text</string>
-   <string name="select_text">Select text</string>
-   <string name="copy_all">Copy all</string>
-   <string name="paste">Paste</string>
-
-   <!-- Preference dialog -->
-   <string name="screen_preferences">Screen</string>
-
-   <string name="title_statusbar_preference">Status bar</string>
-   <string name="summary_statusbar_preference">Show/hide status bar.</string>
-   <string name="dialog_title_statusbar_preference">Status bar</string>
-
-   <string name="title_cursorstyle_preference">Cursor style</string>
-   <string name="summary_cursorstyle_preference">Choose cursor style.</string>
-   <string name="dialog_title_cursorstyle_preference">Cursor style</string>
-
-   <string name="title_cursorblink_preference">Cursor blink</string>
-   <string name="summary_cursorblink_preference">Choose cursor blink.</string>
-   <string name="dialog_title_cursorblink_preference">Cursor blink</string>
-
-   <string name="text_preferences">Text</string>
-
-   <string name="title_fontsize_preference">Font size</string>
-   <string name="summary_fontsize_preference">Choose character height in points.</string>
-   <string name="dialog_title_fontsize_preference">Font size</string>
-
-   <string name="title_color_preference">Colors</string>
-   <string name="summary_color_preference">Choose text color.</string>
-   <string name="dialog_title_color_preference">Text color</string>
-
-   <string name="keyboard_preferences">Keyboard</string>
-
-   <string name="title_controlkey_preference">Control key</string>
-   <string name="summary_controlkey_preference">Choose control key.</string>
-   <string name="dialog_title_controlkey_preference">Control key</string>
-
-   <string name="title_ime_preference">Input method</string>
-   <string name="summary_ime_preference">Choose input method for soft keyboard.</string>
-   <string name="dialog_title_ime_preference">Input method</string>
-
-   <string name="shell_preferences">Shell</string>
-   <string name="title_shell_preference">Command line</string>
-   <string name="summary_shell_preference">Specify the shell command line.</string>
-   <string name="dialog_title_shell_preference">Shell</string>
-
-   <string name="title_initialcommand_preference">Initial command</string>
-   <string name="summary_initialcommand_preference">Sent to the shell when it starts.</string>
-   <string name="dialog_title_initialcommand_preference">Initial Command</string>
-
-   <!-- Don't localize these default values -->
-   <string name="default_value_statusbar_preference">0</string>
-   <string name="default_value_cursorstyle_preference">0</string>
-   <string name="default_value_cursorblink_preference">0</string>
-   <string name="default_value_fontsize_preference">10</string>
-   <string name="default_value_color_preference">2</string>
-   <string name="default_value_controlkey_preference">0</string>
-   <string name="default_value_ime_preference">0</string>
-   <string name="default_value_shell_preference">/system/bin/sh -</string>
-   <string name="default_value_initialcommand_preference">export PATH=/data/local/bin:$PATH</string>
+  <string name="application_terminal">הדמיית מסוף</string>
+  <string name="preferences">העדפות</string>
+  <string name="reset">אפס טרמינל</string>
+  <string name="send_email">שלח מייל אל</string>
+  <string name="special_keys">מקשים מיוחדים</string>
+  <string name="toggle_soft_keyboard">החלף מצב מקלדת</string>
+  <string name="edit_text">ערוך טקסט</string>
+  <string name="select_text">בחר טקסט</string>
+  <string name="copy_all">העתק הכל</string>
+  <string name="paste">הדבק</string>
+  
+    <!-- Preference dialog --> 
+  <string name="screen_preferences">מסך</string>
+  <string name="title_statusbar_preference">שורת סטטוס</string>
+  <string name="summary_statusbar_preference">הצג/הסתר שורת סטטוס.</string>
+  <string name="dialog_title_statusbar_preference">שורת סטטוס</string>
+  <string name="title_cursorstyle_preference">סגנון סמן</string>
+  <string name="summary_cursorstyle_preference">בחר בסגנון סמן.</string>
+  <string name="dialog_title_cursorstyle_preference">סגנון הסמן</string>
+  <string name="title_cursorblink_preference">הבהוב הסמן</string>
+  <string name="summary_cursorblink_preference">בחר הבהוב הסמן.</string>
+  <string name="dialog_title_cursorblink_preference">הבהוב סמן</string>
+  <string name="text_preferences">טקסט</string>
+  <string name="title_fontsize_preference">גודל גופן</string>
+  <string name="summary_fontsize_preference">בחר גובה תו בנקודות.</string>
+  <string name="dialog_title_fontsize_preference">גודל גופן</string>
+  <string name="title_color_preference">צבעים</string>
+  <string name="summary_color_preference">בחירת צבע הטקסט.</string>
+  <string name="dialog_title_color_preference">צבע טקסט</string>
+  <string name="keyboard_preferences">מקלדת</string>
+  <string name="title_controlkey_preference">מקש שליטה</string>
+  <string name="summary_controlkey_preference">בחר מקש שליטה.</string>
+  <string name="dialog_title_controlkey_preference">מקש שליטה</string>
+  <string name="title_ime_preference">שיטת קלט</string>
+  <string name="summary_ime_preference">בחר שיטת קלט עבור מקלדת תוכנה.</string>
+  <string name="dialog_title_ime_preference">שיטת קלט</string>
+  <string name="shell_preferences">Shell</string>
+  <string name="title_shell_preference">שורת הפקודה</string>
+  <string name="summary_shell_preference">ציין את שורת הפקודה עבור ה-Shell.</string>
+  <string name="dialog_title_shell_preference">Shell</string>
+  <string name="title_initialcommand_preference">פקודה ראשונית</string>
+  <string name="summary_initialcommand_preference">שלח למעטפת בעת הפעלה.</string>
+  <string name="dialog_title_initialcommand_preference">פקודה ראשונית</string>
+  
+     <!-- Don't localize these default values -->
+  <string name="default_value_statusbar_preference">0</string>
+  <string name="default_value_cursorstyle_preference">0</string>
+  <string name="default_value_cursorblink_preference">0</string>
+  <string name="default_value_fontsize_preference">10</string>
+  <string name="default_value_color_preference">2</string>
+  <string name="default_value_controlkey_preference">0</string>
+  <string name="default_value_ime_preference">0</string>
+  <string name="default_value_shell_preference">/system/bin/sh-</string>
+  <string name="default_value_initialcommand_preference">export PATH=/data/local/bin:$PATH</string>
 </resources>
