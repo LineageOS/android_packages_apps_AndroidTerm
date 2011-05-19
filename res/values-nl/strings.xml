@@ -45,7 +45,7 @@
    <string name="text_preferences">Tekst</string>
 
    <string name="title_fontsize_preference">Lettergrootte</string>
-   <string name="summary_fontsize_preference">Kies karakterhoogte in punten.</string>
+   <string name="summary_fontsize_preference">Kies karakter hoogte in punten.</string>
    <string name="dialog_title_fontsize_preference">Lettergrootte</string>
 
    <string name="title_color_preference">Kleuren</string>
@@ -58,9 +58,9 @@
    <string name="summary_controlkey_preference">Kies bedieningsknop.</string>
    <string name="dialog_title_controlkey_preference">Bedieningsknop</string>
 
-   <string name="title_ime_preference">Invoermethode</string>
-   <string name="summary_ime_preference">Kies invoermethode voor toetsenbord.</string>
-   <string name="dialog_title_ime_preference">Invoermethode</string>
+   <string name="title_ime_preference">Invoer methode</string>
+   <string name="summary_ime_preference">Kies invoer methode voor toetsenbord.</string>
+   <string name="dialog_title_ime_preference">Invoer methode</string>
 
    <string name="shell_preferences">Shell</string>
    <string name="title_shell_preference">Command line</string>
