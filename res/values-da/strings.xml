@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+ * Copyright (C) 2008 The Android Open Source Project
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License");
+ * you may not use this file except in compliance with the License.
+ * You may obtain a copy of the License at
+ *
+ *      http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS,
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ * See the License for the specific language governing permissions and
+ * limitations under the License.
+-->
+<resources>
+   <string name="application_terminal">Terminal Emulator</string>
+   <string name="preferences">Indstillinger</string>
+   <string name="reset">Nulstil term</string>
+   <string name="send_email">Email til</string>
+   <string name="special_keys">Special knapper</string>
+   <string name="toggle_soft_keyboard">Toggle soft tastatur</string>
+
+   <string name="enable_wakelock">Brug WakeLock</string>
+   <string name="disable_wakelock">Drop WakeLock</string>
+   <string name="enable_wifilock">Brug WifiLock</string>
+   <string name="disable_wifilock">Drop WifiLock</string>
+
+   <string name="edit_text">Rediger tekst</string>
+   <string name="select_text">Vælg tekst</string>
+   <string name="copy_all">Kopier alt</string>
+   <string name="paste">Indsæt</string>
+
+   <string name="service_notify_text">Terminal session kører</string>
+
+   <!-- Preference dialog -->
+   <string name="screen_preferences">Skærm</string>
+
+   <string name="title_statusbar_preference">Statusbar</string>
+   <string name="summary_statusbar_preference">Vis/Skjul statusbar.</string>
+   <string name="dialog_title_statusbar_preference">Statusbar</string>
+
+   <string name="title_cursorstyle_preference">Markør udseende</string>
+   <string name="summary_cursorstyle_preference">Vælg markør udseende.</string>
+   <string name="dialog_title_cursorstyle_preference">Markør udseende</string>
+
+   <string name="title_cursorblink_preference">Markør blink</string>
+   <string name="summary_cursorblink_preference">Vælg markør blink.</string>
+   <string name="dialog_title_cursorblink_preference">Markør blink</string>
+
+   <string name="text_preferences">Tekst</string>
+
+   <string name="title_fontsize_preference">Skriftstørrelse</string>
+   <string name="summary_fontsize_preference">Vælg karakter højde i punkter.</string>
+   <string name="dialog_title_fontsize_preference">Skriftstørrelse</string>
+
+   <string name="title_color_preference">Farver</string>
+   <string name="summary_color_preference">Vælg skriftfarve.</string>
+   <string name="dialog_title_color_preference">Skriftfarve</string>
+
+   <string name="keyboard_preferences">Tastatur</string>
+
+   <string name="title_controlkey_preference">Kontrol knap</string>
+   <string name="summary_controlkey_preference">Vælg kontrop knap.</string>
+   <string name="dialog_title_controlkey_preference">Kontrol knap</string>
+
+   <string name="title_fnkey_preference">Fn knap</string>
+   <string name="summary_fnkey_preference">Vælg Fn knap.</string>
+   <string name="dialog_title_fnkey_preference">Fn knap</string>
+
+   <string name="title_ime_preference">Input metode</string>
+   <string name="summary_ime_preference">Vælg input metode for soft tastatur.</string>
+   <string name="dialog_title_ime_preference">Input metode</string>
+
+   <string name="shell_preferences">Shell</string>
+   <string name="title_shell_preference">Kommandolinie</string>
+   <string name="summary_shell_preference">Vælg shell kommandolinie.</string>
+   <string name="dialog_title_shell_preference">Shell</string>
+
+   <string name="title_initialcommand_preference">Indledende kommando</string>
+   <string name="summary_initialcommand_preference">Sendt til shell når den starter.</string>
+   <string name="dialog_title_initialcommand_preference">Indledende kommando</string>
+
+   <!-- Don't localize these default values -->
+   <string name="default_value_statusbar_preference" translatable="false">0</string>
+   <string name="default_value_cursorstyle_preference" translatable="false">0</string>
+   <string name="default_value_cursorblink_preference" translatable="false">0</string>
+   <string name="default_value_fontsize_preference" translatable="false">10</string>
+   <string name="default_value_color_preference" translatable="false">2</string>
+   <string name="default_value_controlkey_preference" translatable="false">5</string>
+   <string name="default_value_fnkey_preference" translatable="false">4</string>
+   <string name="default_value_ime_preference" translatable="false">0</string>
+   <string name="default_value_shell_preference" translatable="false">/system/bin/sh -</string>
+   <string name="default_value_initialcommand_preference" translatable="false">export PATH=/data/local/bin:$PATH</string>
+</resources>
