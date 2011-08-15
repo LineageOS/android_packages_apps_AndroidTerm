@@ -16,66 +16,66 @@
  -->
 
 <resources>
-	<string-array name="entries_statusbar_preference">
-		<item>Zobrazit stavovou lištu</item>
-		<item>Skrýt stavovou lištu</item>
-	</string-array>
-	
-	<string-array name="entries_cursorblink_preference">
-		<item>Kurzor nebliká</item>
-		<item>Kurzor bliká</item>
-	</string-array>
-	
-	<string-array name="entries_cursorstyle_preference">
-		<item>Obdélníkový</item>
-		<item>Podtržení</item>
-		<item>Svislá čára</item>
-	</string-array>
-	
-	<string-array name="entries_fontsize_preference">
-		<item>4 x 8 pixelů</item>
-		<item>6 bodů</item>
-		<item>7 bodů</item>
-		<item>8 bodů</item>
-		<item>9 bodů</item>
-		<item>10 bodů</item>
-		<item>12 bodů</item>
-		<item>14 bodů</item>
-		<item>16 bodů</item>
-		<item>20 bodů</item>
-	</string-array>
-	
-	<string-array name="entries_color_preference">
-		<item>Černý text na bílé</item>
-		<item>Bílý text na černé</item>
-		<item>Bílý text na modré</item>
-		<item>Zelený text na černé</item>
-		<item>Jantarový text na černé</item>
-		<item>Červený text na černé</item>
-	</string-array>
-	
-	<string-array name="entries_controlkey_preference">
-		<item>Kulička</item>
-		<item>Klávesa \@</item>
-		<item>Klávesa levý Alt</item>
-		<item>Klávesa pravý Alt</item>
-		<item>Klávesa Hlas+</item>
-		<item>Klávesa Hlas-</item>
-		<item>Klávesa kamery</item>
-	</string-array>
-	
-	<string-array name="entries_fnkey_preference">
-		<item>Kulička</item>
-		<item>Klávesa \@</item>
-		<item>Klávesa levý Alt</item>
-		<item>Klávesa pravý Alt</item>
-		<item>Klávesa Hlas+</item>
-		<item>Klávesa Hlas-</item>
-		<item>Klávesa kamery</item>
-	</string-array>
-	
-	<string-array name="entries_ime_preference">
-		<item>Po znacích</item>
-		<item>Po slovech</item>
-	</string-array>
+  <string-array name="entries_statusbar_preference">
+    <item>Zobrazit stavovou lištu</item>
+    <item>Skrýt stavovou lištu</item>
+  </string-array>
+
+  <string-array name="entries_cursorblink_preference">
+    <item>Kurzor nebliká</item>
+    <item>Kurzor bliká</item>
+  </string-array>
+
+  <string-array name="entries_cursorstyle_preference">
+    <item>Obdélníkový</item>
+    <item>Podtržení</item>
+    <item>Svislá čára</item>
+  </string-array>
+
+  <string-array name="entries_fontsize_preference">
+    <item>4 x 8 pixelů</item>
+    <item>6 bodů</item>
+    <item>7 bodů</item>
+    <item>8 bodů</item>
+    <item>9 bodů</item>
+    <item>10 bodů</item>
+    <item>12 bodů</item>
+    <item>14 bodů</item>
+    <item>16 bodů</item>
+    <item>20 bodů</item>
+  </string-array>
+
+  <string-array name="entries_color_preference">
+    <item>Černý text na bílé</item>
+    <item>Bílý text na černé</item>
+    <item>Bílý text na modré</item>
+    <item>Zelený text na černé</item>
+    <item>Jantarový text na černé</item>
+    <item>Červený text na černé</item>
+  </string-array>
+
+  <string-array name="entries_controlkey_preference">
+    <item>Kulička</item>
+    <item>Klávesa \@</item>
+    <item>Klávesa levý Alt</item>
+    <item>Klávesa pravý Alt</item>
+    <item>Klávesa Hlas+</item>
+    <item>Klávesa Hlas-</item>
+    <item>Klávesa kamery</item>
+  </string-array>
+
+  <string-array name="entries_fnkey_preference">
+    <item>Kulička</item>
+    <item>Klávesa \@</item>
+    <item>Klávesa levý Alt</item>
+    <item>Klávesa pravý Alt</item>
+    <item>Klávesa Hlas+</item>
+    <item>Klávesa Hlas-</item>
+    <item>Klávesa kamery</item>
+  </string-array>
+
+  <string-array name="entries_ime_preference">
+    <item>Po znacích</item>
+    <item>Po slovech</item>
+  </string-array>
 </resources>
