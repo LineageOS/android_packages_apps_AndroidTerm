@@ -23,7 +23,7 @@ include $(CLEAR_VARS)
 LOCAL_MODULE_TAGS := optional
 
 # This is the target being built.
-LOCAL_MODULE:= libandroidterm2
+LOCAL_MODULE:= libandroidterm
 
 # All of the source files that we will compile.
 LOCAL_SRC_FILES:= \
@@ -42,6 +42,8 @@ LOCAL_C_INCLUDES += \
 
 # No special compiler flags.
 LOCAL_CFLAGS +=
+
+LOCAL_LDLIBS := -lm -llog -landroid
 
 # Don't prelink this library.  For more efficient code, you may want
 # to add this library to the prelink map and set this to true. However,

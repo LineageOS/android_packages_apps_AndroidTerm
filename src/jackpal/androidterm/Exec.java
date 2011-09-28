@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package jackpal.androidterm2;
+package jackpal.androidterm;
 
 import java.io.FileDescriptor;
 
@@ -30,7 +30,7 @@ import java.io.FileDescriptor;
 public class Exec
 {
     static {
-        System.loadLibrary("androidterm2");
+        System.loadLibrary("androidterm");
     }
 
     /**

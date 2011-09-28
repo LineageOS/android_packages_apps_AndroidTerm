@@ -14,19 +14,18 @@
  * limitations under the License.
  */
 
-package jackpal.androidterm;
+package jackpal.androidterm.model;
 
-import android.os.Bundle;
-import android.preference.PreferenceActivity;
+import android.graphics.Canvas;
 
-public class TermPreferences extends PreferenceActivity {
+/**
+ * Text renderer interface
+ */
 
-    @Override
-    protected void onCreate(Bundle savedInstanceState) {
-        super.onCreate(savedInstanceState);
-
-        // Load the preferences from an XML resource
-        addPreferencesFromResource(R.xml.preferences);
-    }
-
+public interface TextRenderer {
+    float getCharacterWidth();
+    int getCharacterHeight();
+    void drawTextRun(Canvas canvas, float x, float y,
+            int lineOffset, char[] text,
+            int index, int count, boolean cursor, int foreColor, int backColor);
 }

@@ -14,19 +14,11 @@
  * limitations under the License.
  */
 
-package jackpal.androidterm;
+package jackpal.androidterm.model;
 
-import android.os.Bundle;
-import android.preference.PreferenceActivity;
-
-public class TermPreferences extends PreferenceActivity {
-
-    @Override
-    protected void onCreate(Bundle savedInstanceState) {
-        super.onCreate(savedInstanceState);
-
-        // Load the preferences from an XML resource
-        addPreferencesFromResource(R.xml.preferences);
-    }
-
+/**
+ * Callback to be invoked when updates to a TermSession's transcript occur.
+ */
+public interface UpdateCallback {
+    void onUpdate();
 }
