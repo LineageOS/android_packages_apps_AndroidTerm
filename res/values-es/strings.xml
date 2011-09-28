@@ -71,4 +71,10 @@
    <string name="summary_initialcommand_preference">Enviar al shell cuando se inicia.</string>
    <string name="dialog_title_initialcommand_preference">Comando inicial</string>
 
+   <string name="control_key_dialog_title">Control y teclas de función</string>
+   <string name="control_key_dialog_control_text">CTRLKEY Space : Control-@ (NUL)\nCTRLKEY A..Z : Control-A..Z\nCTRLKEY 5 : Control-]\nCTRLKEY 6 : Control-^\nCTRLKEY 7 : Control-_\nCTRLKEY 9 : F11\nCTRLKEY 0 : F12</string>
+   <string name="control_key_dialog_control_disabled_text">No se ha configurado la tecla control.</string>
+   <string name="control_key_dialog_fn_text">FNKEY 1..9 : F1-F9\nFNKEY 0 : F10\nFNKEY W : Arriba\nFNKEY A : Izquierda\nFNKEY S : Abajo\nFNKEY D : Derecha\nFNKEY P : Re Pag\nFNKEY N : Av Pag\nFNKEY T : Tab\nFNKEY L : | (tubería)\nFNKEY U : _ (guión bajo)\nFNKEY E : Control-[ (ESC)\nFNKEY X : Suprimir\nFNKEY I : Insertar\nFNKEY H : Inicio\nFNKEY F : Fin\nFNKEY . : Control-\\\n</string>
+   <string name="control_key_dialog_fn_disabled_text">No hay teclas de función configuradas.</string>
+
 </resources>
