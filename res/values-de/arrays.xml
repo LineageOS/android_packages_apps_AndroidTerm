@@ -64,6 +64,16 @@
     <item>Kamera-Taste</item>
   </string-array>
 
+  <string-array name="entries_fnkey_preference">
+    <item>Trackball</item>
+    <item>\@ Taste</item>
+    <item>Linke Alt-Taste</item>
+    <item>Rechte Alt-Taste</item>
+    <item>Lauter</item>
+    <item>Leiser</item>
+    <item>Kamera-Taste</item>
+  </string-array>
+
   <string-array name="entries_ime_preference">
     <item>Zeichen-basiert</item>
     <item>Wort-basiert</item>
