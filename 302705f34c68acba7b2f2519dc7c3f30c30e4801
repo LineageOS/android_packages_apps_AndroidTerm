@@ -1,0 +1,8 @@
+Change-Id: I293d96c853ed037fcb4220bd2832ad8750eaa575
+Code-Review+2: Ricardo Cerqueira <cyanogenmod@cerqueira.org>
+Verified+1: Ricardo Cerqueira <cyanogenmod@cerqueira.org>
+Submitted-by: Ricardo Cerqueira <cyanogenmod@cerqueira.org>
+Submitted-at: Sat, 03 Mar 2012 22:08:47 +0300
+Reviewed-on: http://review.cyanogenmod.com/12798
+Project: CyanogenMod/android_packages_apps_AndroidTerm
+Branch: refs/heads/gingerbread
