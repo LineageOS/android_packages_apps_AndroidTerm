@@ -17,17 +17,34 @@
 <resources>
    <string name="application_terminal">Эмулятор Терминала</string>
    <string name="preferences">Настройки</string>
+   <string name="new_window">Новое окно</string>
+   <string name="close_window">Закрыть окно</string>
+   <string name="window_list">Окна</string>
+   <string name="prev_window">Пред. окно</string>
+   <string name="next_window">След. окно</string>
    <string name="reset">Сбросить терм.</string>
    <string name="send_email">Отправит Email</string>
    <string name="special_keys">Специальные клавиши</string>
    <string name="toggle_soft_keyboard">Экранная клавиатура</string>
+   <string name="enable_wakelock">Вкл. блокировку пробуждения</string>
+   <string name="disable_wakelock">Выкл. блокировку пробуждения</string>
+   <string name="enable_wifilock">Вкл. блокировку Wi-Fi</string>
+   <string name="disable_wifilock">Выкл. блокировку Wi-Fi</string>
    <string name="edit_text">Изменить</string>
+   <string name="select_text">Выбрать текст</string>
    <string name="copy_all">Копировать всё</string>
    <string name="paste">Вставить</string>
+   <string name="service_notify_text">Сессия терминала запущена</string>
    <string name="screen_preferences">Экран</string>
    <string name="title_statusbar_preference">Статус бар</string>
    <string name="summary_statusbar_preference">Показать/Скрыть статус бар.</string>
    <string name="dialog_title_statusbar_preference">Статус бар</string>
+   <string name="title_cursorstyle_preference">Стиль курсора</string>
+   <string name="summary_cursorstyle_preference">Выберите стиль курсора.</string>
+   <string name="dialog_title_cursorstyle_preference">Стиль курсора</string>
+   <string name="title_cursorblink_preference">Мигание курсора</string>
+   <string name="summary_cursorblink_preference">Выберите стиль мигания курсора.</string>
+   <string name="dialog_title_cursorblink_preference">Мигание курсора</string>
    <string name="text_preferences">Текст</string>
    <string name="title_fontsize_preference">Размер шрифта</string>
    <string name="summary_fontsize_preference">Выберите размер шрифта.</string>
@@ -37,8 +54,11 @@
    <string name="dialog_title_color_preference">Цвет текста</string>
    <string name="keyboard_preferences">Клавиатура</string>
    <string name="title_controlkey_preference">Клавиша Control</string>
-   <string name="summary_controlkey_preference">Выберите что будет клавишей Control.</string>
+   <string name="summary_controlkey_preference">Выберите, что будет клавишей Control.</string>
    <string name="dialog_title_controlkey_preference">Клавиша Control</string>
+   <string name="title_fnkey_preference">Клавиша Fn</string>
+   <string name="summary_fnkey_preference">Выберите, что будет клавишей Fn.</string>
+   <string name="dialog_title_fnkey_preference">Клавиша Fn</string>
    <string name="title_ime_preference">Способ ввода</string>
    <string name="summary_ime_preference">Выберите способ ввода для экранной клавиатуры.</string>
    <string name="dialog_title_ime_preference">Способ ввода</string>
@@ -49,4 +69,7 @@
    <string name="title_initialcommand_preference">Команды запуска</string>
    <string name="summary_initialcommand_preference">Передаются облочке при запуске терминала.</string>
    <string name="dialog_title_initialcommand_preference">Команды запуска</string>
+   <string name="control_key_dialog_title">Клавиши Control и Fn</string>
+   <string name="control_key_dialog_control_disabled_text">Клавиша Control не установлена.</string>
+   <string name="control_key_dialog_fn_disabled_text">Клавиша Fn не установлена.</string>
 </resources>
